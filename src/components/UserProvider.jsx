@@ -1,4 +1,4 @@
-import {  useState } from "react";
+import {  useState, useEffect } from "react";
 import axios from "axios";
 
 
@@ -12,8 +12,8 @@ const fetchApiData = async () => {
  const response = await axios.get(
  "https://mocki.io/v1/a6a0fb6b-a84a-4934-b3f2-5c92cc77c44e"
  );
- setUsers(response.data); // Set the fetched user data
- console.log("Fetched users:", response.data); // Log fetched users
+ setUsers(response.data); 
+ console.log("Fetched users:", response.data); 
 } catch (error) {
  console.log("Error fetching the user data", error);
   }
