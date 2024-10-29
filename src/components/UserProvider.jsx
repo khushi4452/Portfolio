@@ -18,3 +18,6 @@ const fetchApiData = async () => {
  console.log("Error fetching the user data", error);
   }
 };
+
+fetchApiData();
+}, []);
