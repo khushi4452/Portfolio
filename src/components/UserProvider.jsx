@@ -15,7 +15,7 @@ const fetchApiData = async () => {
  setUsers(response.data); 
  console.log("Fetched users:", response.data); 
 } catch (error) {
- console.log("Error fetching the user data", error);
+ console.log("Error fetching to the user data", error);
   }
 };
 
