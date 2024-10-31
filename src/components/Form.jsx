@@ -6,6 +6,7 @@ function Form() {
     <div className="">
       <UserForm />
       <UserData/>
+      <UserView/>
     </div>
   );
 }
