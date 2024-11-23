@@ -5,7 +5,7 @@ function Form() {
   return (
     <div className="">
       <UserForm />
-      <UserData/>
+    >
      
     </div>
   );
